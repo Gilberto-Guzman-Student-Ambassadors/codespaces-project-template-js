@@ -18,7 +18,7 @@ import React from "react";
  */
 import image from "../images/workspace-background.jpg";
 
-const imageAltText = "a desk with a computer, a plant, and a coffee";
+const imageAltText = "A desk with a computer, a plant, and a coffee";
 
 /**
  * Sort description that expands on your title on the Home component.

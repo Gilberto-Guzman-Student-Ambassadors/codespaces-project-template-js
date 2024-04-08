@@ -21,7 +21,7 @@ import React from "react";
  */
 import image from "../images/team-work.jpg";
 
-const imageAltText = "working and dialoguing as a team";
+const imageAltText = "Working and dialoguing as a team";
 
 /**
  * Project list
