@@ -36,7 +36,7 @@ const skillsList = [
   "Cybersecurity",
   "Educator",
   "Technical computer support",
-  "",
+  "IT services",
 ];
 
 /**
