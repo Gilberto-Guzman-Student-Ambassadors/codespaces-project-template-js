@@ -31,28 +31,38 @@ const imageAltText = "Working and dialoguing as a team";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
-    description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
-  },
-  {
-    title: "Web Development for Beginners",
-    description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+    title: "Courses Taught",
+    description: "Lectures that I have given in person and virtually on technology topics.",
+    url: "https://github.com/Gilberto-Guzman",
   },
   {
     title: "My Resume Site",
-    description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+    description: "Portafolio web creado con React, Typescript y Material UI.",
+    url: "https://github.com/Gilberto-Guzman/gilberto-guzman.github.io",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Hand Sign Detection",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Sign language detector which identifies the first 3 letters of the alphabet, is made with python and custom tkinter.",
+    url: "https://github.com/Gilberto-Guzman/HandSignDetection_CTK",
+  },
+  {
+    title: "trabajos.unach Website",
+    description:
+      "Linkedin-like web app to connect UNACH students with employers, made with the php framework Laravel and Tailwind.",
+    url: "https://github.com/Gilberto-Guzman/trabajosunach",
+  },
+  {
+    title: "Syntactic Lexical And Semantic Analyzer",
+    description:
+      "It analyzes a series of variable assignment statements in a very simple programming language, developed with Python.",
+    url: "https://github.com/Gilberto-Guzman/Analizador_Lexico_Sintactico_Y_Semantico",
+  },
+  {
+    title: "Periodic Table",
+    description:
+      "It is a periodic table of the chemical elements made with excel, it has a database, a search engine and a panel which shows the element, its atomic number, name, symbol and atomic mass.",
+    url: "https://github.com/Gilberto-Guzman/Periodic-Table-Excel",
   },
 ];
 

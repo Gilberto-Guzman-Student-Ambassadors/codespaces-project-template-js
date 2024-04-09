@@ -24,19 +24,19 @@ const imageAltText = "A desk with a computer, a plant, and a coffee";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm a Software Enginner student, I'm interested in everything related to technology and sotfware development.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Web & desktop development",
+  "Cloud technologies",
+  "Cybersecurity",
+  "Educator",
+  "Technical computer support",
+  "",
 ];
 
 /**
@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "Im a student of Software Development Engineering at the Autonomous University of Chiapas (UNACH). I have certificates and awards granted by companies such as Microsoft, Core Group (Network for cybersecurity), Cisco, among others. My certifications are: AZ-900, SC-900, CCNAv7. I have also given lectures regarding technological topics such as ChatGPT, React, Markdown and inclusion, such as strategies for students with High Functioning Autism Spectrum Disorder (ASD or Asperger Syndrome) in institutions such as the Benemérita Universidad Autónoma de Puebla (BUAP), UNACH, Core Group and others. I Have been awarded a Space Zero Gravity scholarship by the Institute of Science and Technology of Chiapas, and i'm currently a Microsoft scholarship recipient in the Student Ambassador program. In addition to being willing to learn about different areas and continue preparing professionally.";
 
 const About = () => {
   return (
