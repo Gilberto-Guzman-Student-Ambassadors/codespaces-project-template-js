@@ -1,10 +1,26 @@
 /**
- * Entry point of application, where App is rendered within the div with the id of "app" 
+ * Entry point of application, where App is rendered within the div with the id of "app"
  */
 
+/*
+    Advice: Deprecation notice: ReactDOM.render is no longer supported in React 18
+    I updated the code to support react 18
+
+    Before:
+    import React from "react";
+    import { render } from "react-dom";
+
+    import App from "./App";
+
+    render(<App></App>, document.getElementById("app"));
+
+    After:
+*/
+
 import React from "react";
-import { render } from "react-dom";
+import ReactDOM from "react-dom/client";
 
 import App from "./App";
 
-render(<App></App>, document.getElementById("app"));
+const root = document.getElementById("app");
+ReactDOM.createRoot(root).render(<App />);
