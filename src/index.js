@@ -6,6 +6,8 @@
     Advice: Deprecation notice: ReactDOM.render is no longer supported in React 18
     I updated the code to support react 18
 
+    Thanks to stackoverflow: https://stackoverflow.com/questions/71668256/deprecation-notice-reactdom-render-is-no-longer-supported-in-react-18
+
     Before:
     import React from "react";
     import { render } from "react-dom";
