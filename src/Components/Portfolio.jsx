@@ -73,6 +73,17 @@ const Portfolio = () => {
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
+          {/* 
+          
+          To add an animation to the arrow it didn't work for me to assign it with animation property, 
+            however I managed to solve it by assigning it classname property.
+          
+          before: 
+
+          <img src={image} style={{ height: "90%", width: "100%", objectFit: "cover", animation: "1s ease-out 0s 1 slideInLeft" }} />          
+
+          after:
+        */}
           <img
             src={image}
             className="slide-in-left"

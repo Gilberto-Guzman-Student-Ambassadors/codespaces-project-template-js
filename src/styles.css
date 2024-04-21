@@ -4,6 +4,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap");
 
+
 html,
 body {
   font-family: "Montserrat", sans-serif;
@@ -15,6 +16,20 @@ body {
 }
 
 /* add a smooth scroll */
+
+/* 
+  To update the smooth scrolling to a section 
+  I didn't work assigning it to html tag, 
+  however I managed to solve it by assigning it to body tag
+  
+  before: 
+  html {
+  scroll-behavior: smooth;
+  }
+
+  after:
+*/
+
 body {
   scroll-behavior: smooth;
 }
@@ -131,6 +146,10 @@ img.socialIcon {
 }
 
 /* add a slide In Left animation */
+/*
+To add an animation to slide In Left image it didn't work for me to assign it with animation property, 
+however I managed to solve it by assigning it classname property.
+*/
 @keyframes slideInLeft {
   0% {
     transform: translateX(-100%);
@@ -145,6 +164,11 @@ img.socialIcon {
 }
 
 /* add scroll down arrow animation */
+
+/*
+To add an animation to the arrow it didn't work for me to assign it with animation property, 
+however I managed to solve it by assigning it classname property.
+*/
 @keyframes scrollDown {
   0% {
     opacity: 0;
